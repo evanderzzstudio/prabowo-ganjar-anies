@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rock Paper Scissors</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main id="main-content">
-      <h1 id="title">Man vs Computer</h1>
-      <p class="desc animate" id="desc1">
-        Machines are threatening to take over the world...
-      </p>
-      <p class="desc disappear" id="desc2">
-        Unless you can defeat them in a game of rock paper scissors first to
-        5...
-      </p>
-      <p class="desc disappear" id="desc3">
-        Do you have what it takes to save mankind?
-      </p>
-      <p id="cta">Choose your weapon!</p>
-      <div id="game-container">
-        <div id="btn-container">
-          <div id="rock" class="button">
-            <img src="cave-painting.png" alt="Rock" />
-          </div>
-          <div id="paper" class="button">
-            <img src="document.png" alt="Paper" />
-          </div>
-          <div id="scissors" class="button">
-            <img src="scissors-opened-tool-shape.png" alt="Scissors" />
-          </div>
+
+<head>
+  <title>Rock, Paper, Scissors: Indonesia Election 2024</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main id="main-content">
+    <h1 id="title">You vs Evil Machine</h1>
+    <audio controls autoplay loop>
+      <source src="Hero Music.mp3" type="audio/mpeg">
+    </audio>
+    <p class="desc animate" id="desc1">
+      You are a political kingmaker; only with your influence can Indonesia survive the election sabotage by the evil
+      machines...
+    </p>
+    <p class="desc disappear" id="desc2">
+      Unless you can defeat them in an election game first, up to 5...
+    </p>
+    <p class="desc disappear" id="desc3">
+      Do you have what it takes to save Indonesia?
+    </p>
+    <p id="cta">Choose your candidate!</p>
+    <div id="game-container">
+      <div id="btn-container">
+        <div id="prabowo" class="button">
+          <img src="Prabowo Gibran.png" alt="Prabowo" />
         </div>
-        <div id="score-label">
-          <p class="label">you</p>
-          <p class="label">computer</p>
+        <div id="ganjar" class="button">
+          <img src="ganjarmahfud.png" alt="Ganjar" />
         </div>
-        <div id="score-container">
-          <div id="player-score" class="score">0</div>
-          <div id="computer-score" class="score">0</div>
+        <div id="anies" class="button">
+          <img src="aniescakimin.jpg" alt="Anies" />
         </div>
-        <div id="results-container"></div>
       </div>
-    </main>
-    <div id="end-alert" class="disappear">
-      <div id="end-desc"></div>
-      <a id="retry-btn"></a>
+      <div id="score-label">
+        <p class="label">you</p>
+        <p class="label">computer</p>
+      </div>
+      <div id="score-container">
+        <div id="player-score" class="score">0</div>
+        <div id="computer-score" class="score">0</div>
+      </div>
+      <div id="results-container"></div>
     </div>
-    <script src="app.js"></script>
-  </body>
+  </main>
+  <div id="end-alert" class="disappear">
+    <div id="end-desc"></div>
+    <a id="retry-btn"></a>
+  </div>
+  <script src="app.js"></script>
+</body>
+
 </html>

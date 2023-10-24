@@ -121,7 +121,7 @@ buttons.forEach((button) => {
   });
 });
 
-const myArray = ["Rock", "Paper", "Scissors"];
+const myArray = ["Prabowo", "Ganjar", "Anies"];
 
 function computerPlay() {
   return myArray[~~(Math.random() * myArray.length)];
@@ -133,9 +133,9 @@ function playRound(playerSelection, computerSelection) {
   if (computerSelection == playerSelection) {
     displayResults("Tie game!");
   } else if (
-    (computerSelection == "rock" && playerSelection == "scissors") ||
-    (computerSelection == "scissors" && playerSelection == "paper") ||
-    (computerSelection == "paper" && playerSelection == "rock")
+    (computerSelection == "prabowo" && playerSelection == "anies") ||
+    (computerSelection == "anies" && playerSelection == "ganjar") ||
+    (computerSelection == "ganjar" && playerSelection == "prabowo")
   ) {
     computerScore = ++computerScore;
     keepCpuScore();
@@ -215,10 +215,10 @@ function displayResults(str) {
 function declareWinner() {
   rplContent();
   if (playerScore > computerScore) {
-    endDesc.textContent = "You win! Mankind lives another day!!";
+    endDesc.textContent = "You win! Indonesia Become Superpower!!";
     returnMainBtn.innerText = "Play Again";
   } else {
-    endDesc.textContent = "You lost...who will save mankind now?";
+    endDesc.textContent = "You lost...who will save Indonesia now?";
     returnMainBtn.innerText = "Try Again?";
   }
   fadeIn();
