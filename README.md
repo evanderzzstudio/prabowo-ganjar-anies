@@ -1,6 +1,8 @@
 # Indonesian Election Parody 2024 - Rock, Paper, Scissors Fork
-https://evanderzzstudio.github.io/prabowo-ganjar-anies/
+
 Welcome to the Indonesian Election Parody 2024 - Rock, Paper, Scissors game! This humorous project brings a twist to the traditional Rock, Paper, Scissors game by representing Indonesian election candidates as game elements.
+
+https://evanderzzstudio.github.io/prabowo-ganjar-anies/
 
 ## Game Rules
 
